@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-test/static/css/main.f9dc46d5.css",
+    "main.js": "/react-test/static/js/main.b5b6e87c.js",
+    "static/js/787.223550ad.chunk.js": "/react-test/static/js/787.223550ad.chunk.js",
+    "static/media/Polygon 1.png": "/react-test/static/media/Polygon 1.c2a2fc4995fd1308e81c.png",
+    "static/media/Polygon 2.png": "/react-test/static/media/Polygon 2.5bc07e527c5f508a5ad8.png",
+    "static/media/img-1.png": "/react-test/static/media/img-1.199f2c6b43ef887f2798.png",
+    "static/media/img-2.png": "/react-test/static/media/img-2.19c25a7fae9271baf5ba.png",
+    "static/media/pngwing 1.png": "/react-test/static/media/pngwing 1.6449c2a06ae5a269c255.png",
+    "static/media/linetext.png": "/react-test/static/media/linetext.db69f938151c377e34a1.png",
+    "static/media/Lolla 1.png": "/react-test/static/media/Lolla 1.edab7992d0fa5b743b42.png",
+    "index.html": "/react-test/index.html",
+    "main.f9dc46d5.css.map": "/react-test/static/css/main.f9dc46d5.css.map",
+    "main.b5b6e87c.js.map": "/react-test/static/js/main.b5b6e87c.js.map",
+    "787.223550ad.chunk.js.map": "/react-test/static/js/787.223550ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9dc46d5.css",
+    "static/js/main.b5b6e87c.js"
+  ]
+}
