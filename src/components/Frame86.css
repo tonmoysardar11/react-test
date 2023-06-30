@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+.frame86 {
+    margin: 6rem 0rem 6rem 11rem;
+    overflow: hidden;
+}
+
+.heading86 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.text86 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    max-width: 500px;
+}
+#left,#right{
+    border-radius: 50%;
+}
+.name {
+    font-weight: 700;
+    font-family: 'Inter';
+    margin-bottom:3px;
+}
+
+.company {
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.review {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.profiledetails {
+    margin: 0 2rem;
+}
+
+.card86 {
+    width: 465px;
+    padding: 36px 40px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(225, 166, 255, 0.30);
+    background: #FFF;
+    margin: 2rem 2rem 2rem 0;
+    flex-shrink: 0;
+}
+#left{
+    transform: rotate(-180deg);
+    position: absolute;
+    top: 50%;
+    opacity: 0.5;
+}
+#right{
+    position: absolute;
+    top: 50%;
+    opacity: 0.5;
+    left: 90%;
+}
+.card86:hover {
+    box-shadow: 0px 16px 40px 0px rgba(154, 148, 148, 0.25);
+
+}
+.carousel{
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.comment{
+    margin: 24px 0;
+}
+@media screen and (max-width:1373px) {
+    .frame86{
+        margin: 6rem auto;
+    }
+    .carousel{
+        margin-left: 2rem;
+    }
+}

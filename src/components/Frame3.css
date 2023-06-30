@@ -1,0 +1,134 @@
+.imgs {
+    position: relative;
+    
+}
+
+.frame3 {
+    height: 600px;
+    margin: 6rem 8rem 3rem 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#img2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    margin-right: 45px;
+
+}
+
+#img1 {
+    position: absolute;
+    top: 75px;
+    right: 53px;
+    margin-right: 45px;
+}
+
+.heading-text-3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    width: 580px;
+    margin: 0;
+    color: aliceblue;
+}
+
+.details {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 24px 0;
+    width: 433px;
+    color: aliceblue;
+}
+
+.btn {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    border: none;
+    margin-top: 82px;
+}
+
+.btn p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 19px 56px;
+}
+
+#sm1 {
+    position: absolute;
+    padding: 7px 3px;
+    top: 170px;
+    right: -45px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(154, 148, 148, 0.5);
+}
+
+#sm2 {
+    position: absolute;
+    padding: 7px 3px;
+    top: 310px;
+    border-radius: 5px;
+    right: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(154, 148, 148, 0.5);
+}
+
+@media screen and (max-width:1370px) {
+    .heading-text-3{
+        max-width: 100%;
+        word-wrap: normal;
+    }
+    .details{
+        max-width: 100%;
+    }
+    .imgs{
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    #img1{
+        position: static;
+        margin: 50px 0;
+        float: right;
+    }
+    #img2{
+        display: none;
+    }
+
+    #sm1,#sm2{
+        position: static;
+        margin: 50px 50px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .frame3{
+        margin: 6rem auto;
+    }
+    .text-3{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .details{
+        margin: 24px auto;
+    }
+    #sm1,#sm2{
+        display: none;
+    }
+    #img{
+        margin: 20px auto;
+        width: 100%;
+        text-align: center;
+    }
+    #img1{
+        margin: 50px auto;
+    }
+}
+

@@ -1,0 +1,61 @@
+.frame87{
+    position: relative;
+}
+#bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+.content{
+    text-align: center;
+    margin: 6rem 8rem 0rem 11rem;;
+}
+.heading87{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+.text87{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    max-width: 455px;
+    margin: 24px auto;
+    color: blueviolet;
+    max-width: 500px;
+}
+hr{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.footerright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerbtn{
+    margin-left: 4rem;
+}
+.footerarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+footer{
+    
+    margin-top: 8rem;
+}
+.footermenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footermenu p{
+    margin: 0 2rem;
+}

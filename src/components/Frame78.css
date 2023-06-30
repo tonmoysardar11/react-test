@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+.frame78cont{
+    width: calc(100vw- 8rem- 11rem);
+    margin: 6rem 8rem 6rem 11rem;
+}
+.frame78{
+    position: relative;
+
+}
+
+.heading78{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.text78{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    max-width: 455px;
+    margin: 0 auto;
+    text-align: center;
+}
+.planchange{
+    margin: 24px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.planchange p{
+    transition: all 0.5s;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.cardlist78{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card78{
+    width: 300px;
+    padding: 35px 27px;
+    border: 1px solid #7A3199;
+    border-radius: 10px;
+}
+.planname{
+    font-family: 'Inter';
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.plandetails{
+margin: 20px 0 24px 0;
+
+}
+.planvalue,.benefits{
+    margin: 24px 0;
+}
+.big{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+.benefits{
+    padding: 10px;
+}
+.benefits li{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+.planbtn{
+    padding: 12px 32px;
+    border: 1px solid #7A3199;
+    border-radius: 10px;
+}
+
+#lt{
+    position: absolute;
+    top: -60px;
+    left: 0px;
+    z-index: -1;
+    height: 531px;
+    opacity: 0.75;
+    width: 100%;
+    }
+    @media screen and (max-width:1373px) {
+        .frame78cont{
+            margin: 6rem auto;
+            max-width: 80%;
+        }
+        .card78{
+            margin: 2rem;
+        }
+    }

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+.frame2 {
+    width: calc(100vw- 8rem- 11rem);
+    margin: 3rem 8rem 6rem 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.cardlist {
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+
+.card:nth-child(even) {
+    margin: 30px 15px;
+}
+
+.card:nth-child(odd) {
+    margin: 0px;
+}
+.btn {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    border: none;
+    margin-top: 82px;
+}
+
+.btn p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 19px 56px;
+    color: aliceblue;
+}
+
+.card {
+    padding: 30px;
+    border: 1px solid #7A3199;
+    border-radius: 10px;
+    height: 160px;
+    width: 210px;
+}
+
+.cardheading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 24px;
+
+}
+
+.cardtext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 12px;
+
+}
+
+.heading-2 {
+    font-size: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    margin: 25px 0;
+    color: #000;
+}
+.textcontainer{
+    width: 40%;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: flex-start;
+}
+.text-2{
+    margin: 25px 0;
+}
+@media screen and (max-width:1373px) {
+    .frame2{
+        margin: 6rem auto;
+    }
+    .cardlist,.textcontainer{
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+}

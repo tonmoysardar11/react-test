@@ -1,0 +1,23 @@
+
+nav ul li{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    list-style: none;
+    color: aliceblue;
+}
+.logo{
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+}
+.header,nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    margin: 0.25rem 11rem 0.25rem 11rem;
+}
+nav ul{
+    width: 360px;
+}
